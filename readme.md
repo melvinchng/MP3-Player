@@ -1,11 +1,16 @@
 # RGB MP3 Player with Game
 
-This repository contains the source code of an MP3 Player running on LPC 1768. The core source code are provided while the device drivers are removed. This is a two weeks long academic project. Minimal modifications may be required as the original code is written for RTOS (Real-time operating system) and the optimization has been removed in the source code. As noticed, the source code will not work by default.
+This repository contains the source code of an MP3 Player running on LPC 1768. The core source code are provided while the device drivers are removed. 
 
-### Team Member
-- [Yi Cong Ch'ng (Melvin)](https://github.com/melvinchng/)
-- [Joseph Tingin]()
-- [Anton Pedruco]()
+### Introduction
+This is a two weeks long academic project. Modifications may be required as the original code is written for RTOS (Real-time operating system) and the optimization has been removed in the source code. As noticed, the source code will not work by default. You have to write your own device drivers for LCD (I2C) and MP3 Decoder (SPI). The source code is written is C++ based. 
+
+### Feature
+- Play, Pause, Stop (Song will begin at the beginning of the track)
+- Next, Previous
+- Fast Forward
+- Bass, Treble, Volume control
+- Truck Lane Game
 
 ### Hardware 
 - [SJ One Board](http://www.socialledge.com/sjsu/index.php?title=SJ_One_Board#About_the_Board)
@@ -14,6 +19,14 @@ This repository contains the source code of an MP3 Player running on LPC 1768. T
 - Jumper Wires
 - LM7805 Voltage Regulator (Optional if powered via USB)
 - 9V Battery (Optional if powered via USB)
+
+### Live Demo
+[![Link To Youtube](https://img.youtube.com/vi/uULmRoWzzPE/0.jpg)](https://www.youtube.com/watch?v=uULmRoWzzPE)
+
+### Team Member
+- [Yi Cong Ch'ng (Melvin)](https://github.com/melvinchng/)
+- [Joseph Tingin](https://github.com/josephnikko)
+- Anton Pedruco
 
 ### References
 - [Social Ledge](http://www.socialledge.com/sjsu/index.php?title=Main_Page)
